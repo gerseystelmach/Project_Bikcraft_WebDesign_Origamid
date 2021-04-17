@@ -1,0 +1,172 @@
+/* Tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /* Qualidade Home */
+  .qualidade::after {
+    left: 68px;
+  }
+
+  .qualidade-lista li {
+    padding: 0px 10px;
+  }
+  /* Footer */
+
+  .footer-redes ul li a {
+    padding: 6px;
+  }
+  .footer-redes ul li a img {
+    width: 26px;
+    height: 26px;
+  }
+
+  /* Página Produtos */
+
+  .produto-item h2 {
+    top: -150px;
+    margin-bottom: -56px;
+  }
+
+  .produto-icone {
+    padding: 40px 0;
+  }
+  .produto-info p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 30px;
+    height: 122px;
+  }
+
+  .produto-info ul li {
+    width: 181px;
+    height: 49px;
+    text-align: center;
+    padding-top: 16px;
+    font-weight: bold;
+  }
+
+  .orcamento-dados ul li {
+    width: 300px;
+  }
+} /* ---- Final Estilo Tablet ---- */
+
+/* Para celular */
+
+@media only screen and (max-width: 787px) {
+  /* Header */
+  .header {
+    position: relative;
+    padding-bottom: 0;
+  }
+
+  .header img {
+    margin: 0 auto 20px auto;
+  }
+
+  .header-menu {
+    text-align: center;
+  }
+
+  .header ul li {
+    margin: 5px;
+    text-align: center;
+  }
+  .header ul li a {
+    border: 4px solid #000000;
+    width: 136px;
+    display: block;
+    float: left;
+  }
+
+  .header ul li a:hover {
+    border-color: #ffffff;
+  }
+
+  .header_menu ul li a.menu-ativo {
+    /* para manter a cor branca do botão ativo*/
+    border-color: #fff;
+  }
+
+  /* Introdução */
+
+  .introducao {
+    margin-top: 0px;
+    padding-top: 40px;
+    background: url(../img/bg-mobile.jpg) no-repeat center;
+  }
+
+  .introducao h1 {
+    font-size: 36px;
+  }
+  /* Introdução Interna */
+
+  .introducao-interna {
+    margin-top: 0px;
+  }
+
+  /* Call */
+
+  .call {
+    padding-top: 10px;
+  }
+
+  /* Qualidade Home */
+  .qualidade::after {
+    display: none;
+  }
+
+  /* Missão Sobre */
+
+  .missao-sobre p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0px;
+  }
+
+  .missao-sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  /* Página Produtos */
+
+  .produto-item h2 {
+    top: -100px;
+    margin-bottom: -68px;
+  }
+
+  .produto-icone {
+    padding: 40px 0;
+  }
+  .produto-info p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 30px;
+    height: auto;
+  }
+
+  .produto-info ul li {
+    width: 148px;
+    height: 55px;
+    padding-top: 14px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .orcamento-dados ul li {
+    width: 300px;
+  }
+
+  .orcamento-dados ul {
+    padding-right: 0px;
+  }
+
+  .form {
+    padding-right: 0px;
+  }
+
+  /* Página de Contato */
+
+  .contato-form {
+    padding-right: 0px;
+    margin-bottom: 20px;
+  }
+} /* ---- Final Estilo Celular ---- */
